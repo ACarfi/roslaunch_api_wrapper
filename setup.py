@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name='roslaunch_api_wrapper',
-      version='0.2',
+      version='0.3',
       description='wrapper for rosalunch python api',
       long_description=readme(),
       url='https://github.com/ACarfi/roslaunch-api-wrapper',
