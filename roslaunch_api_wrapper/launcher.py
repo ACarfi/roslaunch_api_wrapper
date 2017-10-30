@@ -6,7 +6,7 @@ import rospkg
 class LauncherStarter:
     def __init__(self, pkg_name, launcher_name, *args):
         if not args:
-            launcher_path = 'launcher/'
+            launcher_path = 'launch/'
         else:
             launcher_path = args[0]
 
