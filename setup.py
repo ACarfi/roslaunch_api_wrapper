@@ -4,7 +4,7 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 
-setup(name='roslaunch-api-wrapper',
+setup(name='roslaunch_api_wrapper',
       version='0.2',
       description='wrapper for rosalunch python api',
       long_description=readme(),
@@ -12,5 +12,5 @@ setup(name='roslaunch-api-wrapper',
       author='Alessandro Carfi',
       author_email='carfi.alessandro@gmail.com',
       license='MIT',
-      packages=['roslaunch-api-wrapper'],
+      packages=['roslaunch_api_wrapper'],
       zip_safe=False)
