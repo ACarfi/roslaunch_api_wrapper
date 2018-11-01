@@ -19,4 +19,5 @@ class LauncherStarter:
         self.launch.start()
 
     def stop(self):
+        print "killing launch"
         self.launch.shutdown()
